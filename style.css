@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Ubuntu;
+}
+
+a {
+    text-decoration: unset;
+    color: red;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    color: black;
+}
+
+select {
+    color: black;
+}
+
+table {
+    justify-content: center;
+    border: none;
+    display: flex;
+}
+
+table a {
+    color: red;
+}
+
+td {
+    padding: 5px;
+}
+
+.indexBody {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('background_cinema.jpeg');
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar a {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: red;
+    text-decoration: none;
+}
+
+.navBar h1 {
+    padding: 5px;
+    color: white;
+}
