@@ -1,6 +1,6 @@
 <?php
 //On donne les paramètres de la DB//
-$db = mysqli_connect("localhost","root","root","cinema");
+$db = mysqli_connect("localhost","root","mysqlisagreattool","cinema_db");
 
 //Gestion d'erreur//
 if(!$db)
